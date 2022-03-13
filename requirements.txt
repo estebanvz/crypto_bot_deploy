@@ -1,0 +1,5 @@
+python-telegram-bot
+scikit-learn
+numpy
+pandas
+plotly
