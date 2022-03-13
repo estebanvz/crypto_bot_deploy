@@ -8,12 +8,11 @@ def welcome(update, context):
     update.message.reply_text(
         " Welcome to e-cryptobot! The most reliable clever trader bot in the market! "
     )
-if __name__ == '__main__':
-    updater = Updater(
-        token = TOKEN, use_context=True
-    )
-    dp = updater.dispatcher
-    dp.add_handler( CommandHandler('welcome', welcome) )
-    updater.start_polling()
-    updater.idle()
+updater = Updater(
+    token = TOKEN, use_context=True
+)
+dp = updater.dispatcher
+dp.add_handler( CommandHandler('welcome', welcome) )
+updater.start_polling()
+updater.idle()
 # %%

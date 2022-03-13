@@ -1,1 +1,1 @@
-e-cryptobot: python3 main.py
+ecryptobot: python3 main.py
