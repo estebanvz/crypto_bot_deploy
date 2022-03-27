@@ -1,1 +1,7 @@
 .env
+datasets
+img
+__pycache__/extract.cpython-37.pyc
+__pycache__/load.cpython-37.pyc
+__pycache__/prediction.cpython-37.pyc
+__pycache__/transform.cpython-37.pyc

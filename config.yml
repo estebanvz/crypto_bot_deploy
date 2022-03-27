@@ -1,0 +1,13 @@
+CRYPTOS:
+    - BTCUSDT
+    - CAKEUSDT
+    - XRPUSDT
+    - ETHUSDT
+    - ROSEUSDT
+    - FTMUSDT
+    - AVAXUSDT
+    - DOGEUSDT
+    - LTCUSDT
+TIME_INTERVAL: "1d"
+TIME_HOURS: 2400
+FOLDER: "./datasets"
